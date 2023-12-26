@@ -427,8 +427,17 @@ a {
     background: #2E2100;
 }
 
+.feedback-list {
+    display: flex;
+    overflow: hidden;
+}
+
 .feedback-item {
     display: flex;
+    width: 100%;
+    flex-shrink: 0;
+    /* transform: translateX(-100%);
+    transition: all ease 2s; */
 }
 
 .feedback .avatar {
